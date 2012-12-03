@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/fundo"
+    >
+
+    <br.com.android.defesa.util.DashboardLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+       <Button
+			android:id="@+id/bt1"
+			android:text="@string/menu_1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/bt1"
+			android:onClick="onShowBar"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		<Button
+			android:id="@+id/bt2"
+			android:text="@string/menu_2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/bt2"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		<Button
+			android:id="@+id/bt3"
+			android:text="@string/menu_3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/bt3"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+		<Button
+			android:id="@+id/bt4"
+			android:text="@string/menu_4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:drawableTop="@drawable/bt4"
+			android:drawablePadding="10dp"
+			android:background="@null"
+			android:textStyle="bold"
+			android:textColor="@color/preto"
+		/>
+        
+        
+    </br.com.android.defesa.util.DashboardLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:id="@+id/linear_principal"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+    
+        
+        <TableLayout
+                 android:layout_width="match_parent"
+                 android:shrinkColumns="2"
+                 android:layout_height="60dp" >
+
+                 <TableRow
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:gravity="center" >
+                     
+                     <TextView
+                     android:id="@+id/textView99"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Participação em Programas Sociais"
+                     android:textColor="#000000"
+                     android:textSize="16sp" />
+                     
+                 </TableRow>
+
+                 <TableRow
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="right" >
+                     
+                 </TableRow>
+             </TableLayout>
+
+        
+        <TableLayout
+                 android:layout_width="829dp"
+                 android:shrinkColumns="3"
+                 android:layout_gravity="center"
+                 android:layout_height="wrap_content" >
+            
+                <TableRow
+                     android:layout_width="wrap_content"
+                     android:layout_marginTop="10dp"
+                     
+                      >
+                
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Programa" />
+    
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="QTº Beneficiários" />
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Valor:" />
+    
+    
+    </TableRow>
+
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_programa"
+        android:layout_width="250dp"
+        android:text="Bolsa Família"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_orgao"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_iss"
+        android:layout_width="250dp"
+        android:text="Benefício INSS"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_bene"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_programa"
+        android:layout_width="250dp"
+        android:text="ProJovem"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_orgao"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_iss"
+        android:layout_width="250dp"
+        android:text="Projovem Urbano"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_bene"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_programa"
+        android:layout_width="250dp"
+        android:text="Peti"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_orgao"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+                <TableRow 
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="80dp"
+                    >
+                
+    <TextView
+        android:id="@+id/tv_iss"
+        android:layout_width="250dp"
+        android:text="Outros"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+         />
+    
+                        <Spinner
+                        android:id="@+id/sp1_bene"
+                        android:entries="@array/valor_bene"
+                        android:prompt="@string/escolha_num_bene"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp" />
+    
+   
+    
+    <EditText
+        android:id="@+id/et_cpf"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number" />
+    
+    
+    </TableRow>
+    
+               
+    
+    
+    
+    </TableLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            
+             >
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_proximo_social"
+                android:text="Proximo"
+                />
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+        
+</LinearLayout>
+</ScrollView>

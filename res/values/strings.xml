@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Defesa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+     <!-- Labels -->
+    <string name="abrirSite">Abrir o Site</string>
+    <string name="menu_1">Social</string>
+    <string name="menu_2">Mapa</string>
+    <string name="menu_3">Sincronizar</string>
+    <string name="menu_4">Sobre</string>
+    
+    
+    <string name="escolha_nacionalidade">Escolha a Nacionalidade</string>
+    
+    <string-array name="nacionalidade">
+        <item>Brasileira</item>
+        <item>Americana</item>
+        <item>Francesa</item>
+        <item>Italiana</item>
+    </string-array>
+    
+     <string name="escolha_orgao">Escolha a Órgão Emissor</string>
+    
+    <string-array name="orgaoemissor">
+        <item>SSP</item>
+        <item>SDS</item>
+    </string-array>
+    
+    <string name="escolha_num_bene">Escolha a Quantos Beneficiários</string>
+    
+    <string-array name="valor_bene">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+   
+
+</resources>
